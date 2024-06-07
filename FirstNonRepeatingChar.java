@@ -22,7 +22,7 @@ public class FirstNonRepeatingChar {
             }
         }
 
-        if(index==s.length()){
+        if(index==s.length()-1){
             System.out.println("All characters are repeating");
         }
         else{
